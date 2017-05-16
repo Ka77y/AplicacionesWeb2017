@@ -1,0 +1,86 @@
+
+    /*body{
+        background-color: aquamarine;
+        color: #fc4ce0;
+    }
+    h1{
+        background-color: #fc7c13;
+        color: #1defff;
+    }
+    h2{
+        background-color: #fcfc29;
+        color: #2531ff;
+    }
+    h3{
+        background-color: #93fc13;
+        color: #9a6dff;
+    }
+    h4{
+        background-color: #fc190c;
+        color: #d7fff8;
+    }
+    div{
+        perspective: 2000px;
+        background-color: #8518ff;
+    }*/
+    /*h1{
+        background-color: #fc7c13;
+        color: #1defff;
+    }
+    #uno{
+        background-color: yellow;
+        color: black;
+    }
+    button{
+        background-color: #17abb3;
+        color: #f6ff74;
+    }
+    #dos{
+        background-color: #f8ffaa;
+        color: #17abb3;
+    }*/
+.boton-cuidado{
+    background-color: yellow;
+    color: black;
+}
+.boton-exito{
+    background-color: crimson;
+    color: chartreuse;
+
+}
+
+button:hover {
+    background-color: #44dc1e;
+    color: #030700;
+    /*            animation: jump 4s infinite;*/
+    animation-name: jump;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+button:focus {
+    background-color:   #222bff;
+}
+
+@keyframes jump {
+    0%   {background-color: red;
+        width: 100px;
+        height: 100px;
+    }
+
+    20%   {background-color: green;
+        width: 40px;
+        height: 40px;
+    }
+
+    50%   {background-color: #ccfffb;
+        width: 100px;
+        height: 100px;
+    }
+
+    100%   {background-color: #f0a126;
+        width: 40px;
+        height: 40px;
+    }
+
+}
